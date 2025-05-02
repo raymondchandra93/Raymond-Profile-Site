@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './header'
+import raymond_img from './assets/raymond_1.jpg'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <Header />
       </div>
       <div id="profile" className='container-sm'>
-        <img src='/assets/raymond_1.jpg'></img>
+        <img src={raymond_img} className='w-50'></img>
       </div>
     </>
   )
